@@ -1,0 +1,14 @@
+# A Devops Task
+ 
+## Docker framework with Python script to convert json to xml, encrypt and transfer between containers
+
+
+![Devops Task Description](pytask.jpeg)
+
+### How to
+- Drop the json file(s) in src folder
+- Start the containers
+```
+$ docker-compose up
+```
+- Verify the xml file(s) [with both encrypted and decrypted] in dest folder

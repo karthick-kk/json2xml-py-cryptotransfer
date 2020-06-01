@@ -1,0 +1,26 @@
+<Version>
+	1.0
+</Version>
+<Parameters>
+	<RuleName>
+		SQS_ENCRYPTION_CHECK
+	</RuleName>
+	<SourceRuntime>
+		python3.7
+	</SourceRuntime>
+	<CodeKey>
+		SQS_ENCRYPTION_CHECK.zip
+	</CodeKey>
+	<InputParameters>
+		{"QueueNameStartsWith":"cookin, servefo"}
+	</InputParameters>
+	<OptionalParameters>
+		{}
+	</OptionalParameters>
+	<SourcePeriodic>
+		Three_Hours
+	</SourcePeriodic>
+</Parameters>
+<Tags>
+	[]
+</Tags>

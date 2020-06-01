@@ -1,0 +1,23 @@
+version: '2'
+services:
+
+ py_sender:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    command: json2xml.py
+    volumes:
+    - ./src:/src/
+    - ./dest:/dest/
+    - ./:/app
+
+ py_receiver:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+    - py_sender
+    command: decstor.py
+    volumes:
+    - ./dest:/dest/
+    - ./:/app
