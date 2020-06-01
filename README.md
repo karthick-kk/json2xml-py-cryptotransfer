@@ -4,7 +4,7 @@
 Docker framework with Python script to convert json to xml, encrypt and transfer between containers
 
 
-![Devops Task Description](pytask.jpeg){:height="25%" width="25%"}
+![Devops Task Description](pytask.jpeg)
 
 ### How to
 - Drop the json file(s) in src folder
