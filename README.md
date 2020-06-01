@@ -1,9 +1,10 @@
 # A Devops Task
- 
-## Docker framework with Python script to convert json to xml, encrypt and transfer between containers
+
+### Description 
+Docker framework with Python script to convert json to xml, encrypt and transfer between containers
 
 
-![Devops Task Description](pytask.jpeg)
+![Devops Task Description](pytask.jpeg){:height="50%" width="50%"}
 
 ### How to
 - Drop the json file(s) in src folder
